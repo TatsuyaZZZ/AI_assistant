@@ -31,7 +31,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title(" AI assistant")
-st.image("AI_manager.png")
+st.image("AI_assistant_male.png")
 st.write("お話しましょう✨")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
